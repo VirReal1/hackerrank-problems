@@ -14,14 +14,7 @@ using System;
 
 class Result
 {
-
-    /*
-     * Complete the 'diagonalDifference' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts 2D_INTEGER_ARRAY arr as parameter.
-     */
-
+    // Diagonal Difference Problem
     public static int diagonalDifference(List<List<int>> arr)
     {
         int ltr = 0, rtl = 0, result, y = (arr.Count - 1);

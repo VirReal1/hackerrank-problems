@@ -14,8 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the plusMinus function below.
+    // Plus Minus Problem
     static void plusMinus(int[] arr)
     {
         double minus = 0, add = 0, equal = 0;

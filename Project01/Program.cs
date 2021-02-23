@@ -5,10 +5,7 @@ using System.Linq;
 
 class Solution
 {
-
-    /*
-     * Complete the simpleArraySum function below.
-     */
+    // Simple Array Sum Problem
     static int simpleArraySum(int[] ar)
     {
         int result = 0;

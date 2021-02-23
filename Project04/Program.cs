@@ -14,8 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the staircase function below.
+    // Staircase Problem
     static void staircase(int n)
     {
         for (int y = n - 1; y >= 0; y--)

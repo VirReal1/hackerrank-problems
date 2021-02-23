@@ -14,8 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the miniMaxSum function below.
+    // Mini-Max Sum Problem
     static void miniMaxSum(int[] arr)
     {
         long min = 0, max = 0, sum = 0;

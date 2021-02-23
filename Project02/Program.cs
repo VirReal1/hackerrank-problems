@@ -14,8 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the aVeryBigSum function below.
+    // A Very Big Sum Problem
     static long aVeryBigSum(long[] ar)
     {
         long result = 0;

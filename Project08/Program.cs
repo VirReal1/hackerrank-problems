@@ -14,8 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the compareTriplets function below.
+    // Compare Triplets Function
     static List<int> compareTriplets(List<int> a, List<int> b)
     {
         int alice = 0, bob = 0;
