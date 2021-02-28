@@ -49,6 +49,5 @@ class Solution
 
         textWriter.Flush();
         textWriter.Close();
-        //Hello World
     }
 }
