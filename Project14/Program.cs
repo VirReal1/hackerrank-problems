@@ -15,12 +15,12 @@ using System;
 class Solution
 {
 
-    // Complete the breakingRecords function below.
+    // Breaking The Records Problem
     static int[] breakingRecords(int[] scores)
     {
         int min = 0, max = 0, minPoint = 0, maxPoint = 0;
 
-        int[] result = new int[1];
+        int[] result = new int[2];
 
         min = scores[0];
 
@@ -42,16 +42,16 @@ class Solution
             }
         }
 
-        result[0] = minPoint;
+        result[0] = maxPoint;
 
-        result[1] = maxPoint;
+        result[1] = minPoint;
 
         return result;
     }
 
     static void Main(string[] args)
     {
-        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int n = Convert.ToInt32(Console.ReadLine());
 
@@ -59,13 +59,9 @@ class Solution
 
         int[] result = breakingRecords(scores);
 
-        Console.WriteLine(string.Join(" ", result));
+        textWriter.WriteLine(string.Join(" ", result));
 
-        Console.ReadLine();
-
-        //textWriter.WriteLine(string.Join(" ", result));
-
-        //textWriter.Flush();
-        //textWriter.Close();
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
