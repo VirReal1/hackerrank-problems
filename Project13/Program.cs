@@ -18,9 +18,7 @@ class Result
 
     public static int getLCMValue(List<int> a)
     {
-        int minLCM, maxLCM, LCMValue = 0;
-
-        minLCM = a.Min();
+        int maxLCM, LCMValue = 0;
 
         maxLCM = a.Max();
 
@@ -29,9 +27,11 @@ class Result
             if(a.All(x => i % x == 0))
             {
                 LCMValue = i;
+
                 break;
-            }            
+            }
         }
+
         return LCMValue;
     }
     public static int getGCDValue(List<int> b)
@@ -47,9 +47,11 @@ class Result
             if(b.All(x => x % i == 0))
             {
                 GCDValue = i;
+
                 break;
             }
         }
+
         return GCDValue;
     }
     public static int getTotalX(int LCMValue, int GCDValue)
@@ -63,6 +65,7 @@ class Result
                 total++;
             }
         }
+
         return total;
     }
 }
