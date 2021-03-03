@@ -22,6 +22,8 @@ class Solution
 
         int max = 0;
 
+        int birdRepeat = 0;
+
         for (int i = 0; i < arr.Count; i++)
         {
             repeat[arr[i] - 1]++;
@@ -31,17 +33,17 @@ class Solution
         {
             if (repeat[x] > max)
             {
-                max = repeat[x] + 1;
-                break;
+                max = repeat[x];
+                birdRepeat = x + 1;
             }
         }
 
-        return max;
+        return birdRepeat;
     }
 
     static void Main(string[] args)
     {
-        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int arrCount = Convert.ToInt32(Console.ReadLine().Trim());
 
@@ -49,13 +51,9 @@ class Solution
 
         int result = migratoryBirds(arr);
 
-        Console.WriteLine(result);
+        textWriter.WriteLine(result);
 
-        Console.ReadLine();
-
-        //textWriter.WriteLine(result);
-
-        //textWriter.Flush();
-        //textWriter.Close();
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
