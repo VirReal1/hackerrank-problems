@@ -24,3 +24,4 @@ Project20 = Sales by Match
 Project21 = Drawing Book
 Project22 = Counting Valleys
 Project23 = Electronics Shop
+Project24 = Cats and a Mouse
