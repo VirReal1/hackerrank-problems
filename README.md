@@ -1,5 +1,5 @@
 # hackerrank-problems
-Hackerrank problems that I solved
+Hackerrank problems that I solved using C#
 
 Project01 = Simple Array Sum
 Project02 = A Very Big Sum
@@ -25,3 +25,4 @@ Project21 = Drawing Book
 Project22 = Counting Valleys
 Project23 = Electronics Shop
 Project24 = Cats and a Mouse
+Project25 = Picking Numbers
