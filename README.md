@@ -26,3 +26,4 @@ Project22 = Counting Valleys
 Project23 = Electronics Shop
 Project24 = Cats and a Mouse
 Project25 = Picking Numbers
+Project26 = The Hurdle Race
