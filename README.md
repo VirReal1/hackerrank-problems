@@ -32,3 +32,4 @@ Project28 = Forming a Magic Square
 Project29 = Climbing the Leaderboard
 Project30 = Utopian Tree
 Project31 = Angry Professor
+Project32 = Beautiful Days at the Movies
