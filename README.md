@@ -40,3 +40,4 @@ Project36 = Sequence Equation
 Project37 = Jumping on the Clouds: Revisited
 Project38 = Find Digits
 Project39 = Extra Long Factorials
+Project40 = Append and Delete
