@@ -1,4 +1,4 @@
-# hackerrank-problems
+git# hackerrank-problems
 Hackerrank problems that I solved using C#
 
 Project01 = Simple Array Sum
@@ -42,3 +42,4 @@ Project38 = Find Digits
 Project39 = Extra Long Factorials
 Project40 = Append and Delete
 Project41 = Sherlock and Squares
+Project42 = Library Fine
