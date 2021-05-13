@@ -41,3 +41,4 @@ Project37 = Jumping on the Clouds: Revisited
 Project38 = Find Digits
 Project39 = Extra Long Factorials
 Project40 = Append and Delete
+Project41 = Sherlock and Squares
