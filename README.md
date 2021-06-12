@@ -1,4 +1,4 @@
-git# hackerrank-problems
+git# hackerrank-problems <br />
 Hackerrank problems that I solved using C# <br />
 
 Project01 = Simple Array Sum <br />
@@ -47,3 +47,4 @@ Project43 = Cut the Sticks <br />
 Project44 = Repeated String <br />
 Project45 = Non-Divisible Subset <br />
 Project46 = Jumping on the Clouds <br />
+Project47 = Equalize the Array <br />
