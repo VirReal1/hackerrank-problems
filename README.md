@@ -48,3 +48,4 @@ Project44 = Repeated String <br />
 Project45 = Non-Divisible Subset <br />
 Project46 = Jumping on the Clouds <br />
 Project47 = Equalize the Array <br />
+Project48 = Queen's Attack II <br />
