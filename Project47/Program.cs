@@ -19,8 +19,8 @@ class Result
     public static int equalizeArray(List<int> arr)
     {
         int mostRepeat = 0;
-        for(int i = 0; i<arr.Max();i++)
-            mostRepeat = Math.Max(arr.Count(x => x == i),mostRepeat);
+        for (int i = 1; i <= arr.Max(); i++)
+            mostRepeat = Math.Max(arr.Count(x => x == i), mostRepeat);
         return arr.Count - mostRepeat;
     }
 
@@ -30,7 +30,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int n = Convert.ToInt32(Console.ReadLine().Trim());
 
@@ -38,9 +38,9 @@ class Solution
 
         int result = Result.equalizeArray(arr);
 
-        //textWriter.WriteLine(result);
+        textWriter.WriteLine(result);
 
-        //textWriter.Flush();
-        //textWriter.Close();
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
