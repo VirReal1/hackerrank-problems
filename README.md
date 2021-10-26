@@ -57,3 +57,4 @@ Project53 = Bigger is Greater <br />
 Project54 = Modified Kaprekar Numbers <br />
 Project55 = Beautiful Triplets <br />
 Project56 = Minimum Distances <br />
+Project57 = Halloween Sale <br />
