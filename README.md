@@ -58,3 +58,4 @@ Project54 = Modified Kaprekar Numbers <br />
 Project55 = Beautiful Triplets <br />
 Project56 = Minimum Distances <br />
 Project57 = Halloween Sale <br />
+Project58 = Service Lane <br />
